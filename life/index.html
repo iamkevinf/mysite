@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Life</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <!-- stylesheets -->
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+  <link href="css/colour.css" rel="stylesheet" type="text/css" />
+  <!-- modernizr enables HTML5 elements and feature detects -->
+  <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
+</head>
+
+<body>
+  <div id="main">
+
+    <!-- begin header -->
+    <header>
+      <div id="logo"><h1>记录<a href="#"> 点点滴滴 </a>生活</h1></div>
+      <nav>
+        <ul class="sf-menu" id="nav">
+          <li class="selected"><a href="index.html">home</a></li>
+          <li><a href="about.html">about me</a></li>
+          <li><a href="#">album</a>
+            <ul>
+              <li><a href="portfolio_one.html">wedding</a></li>
+              <li><a href="portfolio_two.html">portfolio_two</a></li>
+            </ul>
+          </li>
+          <li><a href="blog.html">blog</a></li>
+          <li><a href="contact.php">contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- end header -->
+    <!-- begin content -->
+    <div id="site_content">
+      <ul class="slideshow">
+        <li class="show"><img width="auto" height="450" src="images/home_1.jpg" alt="&quot;2017-06-24一个炎热的夏天，但心情...&quot;" /></li>
+        <li><img width="auto" height="450" src="images/home_2.jpg" alt="&quot;从此，那个美丽的她...&quot;" /></li>
+        <li><img width="auto" height="450" src="images/home_3.jpg" alt="&quot;还有，那个帅气的他...&quot;" /></li>
+      </ul>
+    </div>
+    <!-- end content -->
+
+    <!-- begin footer -->
+    <footer>
+      <p>Copyright &copy; 2018 My Life. All Rights Reserved. </p>
+    </footer>
+    <!-- end footer -->
+
+  </div>
+  <!-- javascript at the bottom for fast page loading -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.easing-sooper.js"></script>
+  <script type="text/javascript" src="js/jquery.sooperfish.js"></script>
+  <script type="text/javascript" src="js/image_fade.js"></script>
+  <!-- initialise sooperfish menu -->
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('ul.sf-menu').sooperfish();
+    });
+  </script>
+</body>
+</html>
