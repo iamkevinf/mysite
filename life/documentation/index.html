@@ -86,13 +86,13 @@
     <p>There are several stylesheets used in this theme, depending on the page being viewed. The stylesheets are:</p>
     <ol>
       <li><b>css/style.css</b></li>
-      <li><b>css/portfolio_one.css OR css/portfolio_two.css</b></li>
+      <li><b>css/wedding.css OR css/portfolio_two.css</b></li>
       <li><b>css/colour.css</b></li>
     </ol>
 
     <ol>
       <li><b>style.css</b> is the main stylesheet and is included in all pages. It contains all the structural stylings for the template.</li>
-      <li><b>portfolio_one.css</b> contains all the styling for the gallerific portfolio shown on the portfolio_one.html page.</li>
+      <li><b>wedding.css</b> contains all the styling for the gallerific portfolio shown on the wedding.html page.</li>
       <li><b>portfolio_two.css</b> contains all the styling for the gallerific portfolio shown on the portfolio_two.html page.</li>
       <li><b>colour.css</b> is the colour stylesheet</li>
     </ol>
@@ -131,7 +131,7 @@
       <li><b>Easing sooper</b> is a jQuery plugin for easing transitions, optimised for the Sooperfish drop-down menu.</li>
       <li><b>Sooperfish</b> is a jQuery plugin for the drop-down menu.</li>
       <li><b>Image fade</b> contains the functions for the gallery image fader on the home page (<b>index.html</b>).</li>
-      <li><b>Galleriffic</b> is a jQuery plugin for rendering the photo galleries on the portfolio pages (<b>portfolio_one.html</b> and <b>portfolio_two.html</b>).</li>
+      <li><b>Galleriffic</b> is a jQuery plugin for rendering the photo galleries on the portfolio pages (<b>wedding.html</b> and <b>portfolio_two.html</b>).</li>
       <li><b>Opacity rollover</b> is a jQuery plugin used by the the Galleriffic plugin.</li>
     </ol>
 
@@ -176,20 +176,20 @@
         <p>NOTE: Remember to put 'class="show"' on the first &lt;li&gt; in the list, so that the image fader knows which one to start with.</p>
       </li>
       <li>
-        <b>Galleriffic Two Column Gallery (portfolio_one.html)</b>
-        <p>The second style, shown on the portfolio_one page, uses the <a href="http://www.twospy.com/galleriffic/">Galleriffic</a> jQuery plugin for 'rendering rich, fast-performing photo galleries'. It is quite simple to set-up your Galleriffic gallery: To add an image to the gallery simply resize your main image (450px x 450px) and create a thumbnail for this image (75px x 75px). Then add the following list item (li) into the unordered list (ul) with class="thumbs noscript":</p>
+        <b>Galleriffic Two Column Gallery (wedding.html)</b>
+        <p>The second style, shown on the wedding page, uses the <a href="http://www.twospy.com/galleriffic/">Galleriffic</a> jQuery plugin for 'rendering rich, fast-performing photo galleries'. It is quite simple to set-up your Galleriffic gallery: To add an image to the gallery simply resize your main image (450px x 450px) and create a thumbnail for this image (75px x 75px). Then add the following list item (li) into the unordered list (ul) with class="thumbs noscript":</p>
 
         <pre>
 &lt;li&gt;
-  &lt;a class="thumb" href="images/portfolio_one/main_image.jpg"&gt;&lt;img src="images/portfolio_one/main_image_thumbnail.jpg" alt="one" /&gt;&lt;/a&gt;
+  &lt;a class="thumb" href="images/wedding/main_image.jpg"&gt;&lt;img src="images/wedding/main_image_thumbnail.jpg" alt="one" /&gt;&lt;/a&gt;
   &lt;div class="caption"&gt;
-    &lt;div class="image-title portfolio_one"&gt;&quot;Image caption goes here&quot;&lt;/div&gt;
+    &lt;div class="image-title wedding"&gt;&quot;Image caption goes here&quot;&lt;/div&gt;
   &lt;/div&gt;
 &lt;/li&gt;
         </pre>
 
         <p>where href equals your main image (450px x 450px) and img src equals your thumbnail image. Within the img tag, you should put an 'alt' for your image. If you want a caption for your image, simply include the 'div class="caption"' section and add your image caption within the "Image caption goes here" part.</p>
-        <p>NOTE: There are lots of settings for the Galleriffic Photo Viewer. These settings are passed in when the galleriffic gallery is initialised (within the portfolio_one.html). The settings are optimised for the portfolio_one gallery, but can be changed if required. A description for these settings can be seen <a href="http://www.twospy.com/galleriffic/">here</a>.</p>
+        <p>NOTE: There are lots of settings for the Galleriffic Photo Viewer. These settings are passed in when the galleriffic gallery is initialised (within the wedding.html). The settings are optimised for the wedding gallery, but can be changed if required. A description for these settings can be seen <a href="http://www.twospy.com/galleriffic/">here</a>.</p>
       </li>
       <li>
         <b>Galleriffic One Column Gallery (portfolio_two.html)</b>
@@ -197,7 +197,7 @@
 
         <pre>
 &lt;li&gt;
-  &lt;a class="thumb" href="images/portfolio_one/main_image.jpg"&gt;&lt;img src="images/portfolio_one/main_image_thumbnail.jpg" alt="one" /&gt;&lt;/a&gt;
+  &lt;a class="thumb" href="images/wedding/main_image.jpg"&gt;&lt;img src="images/wedding/main_image_thumbnail.jpg" alt="one" /&gt;&lt;/a&gt;
   &lt;div class="caption"&gt;
     &lt;div class="image-title portfolio_two"&gt;&quot;Image caption goes here&quot;&lt;/div&gt;
   &lt;/div&gt;
