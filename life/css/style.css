@@ -130,7 +130,8 @@ header {
   min-height: 450px;}
 
 #right_content img { 
-  float: left;}
+  float: left;
+  width: 100%;}
 
 footer { 
   height: 54px;
